@@ -11,7 +11,7 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-
+    color: #222;
 }
 
 h1, h2, h3 {
@@ -51,6 +51,12 @@ p {
 .btn-primary:hover {
     background: #222;
     color: white;
+}
+
+.container {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
 }
 
 .my-10 {
@@ -126,3 +132,15 @@ p {
     line-height: 1.6em;
 }
 
+/*  Features */
+
+.features {
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+.feature {
+    float: left;
+    width: 50%;
+}
