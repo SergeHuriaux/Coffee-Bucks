@@ -82,6 +82,28 @@ p {
     margin-bottom: 20px;
 }
 
+.underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chip {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    border-radius: 100%;
+    background: #333;
+    color: white;
+}
+
+.chip-purple {
+    background: #be418c;
+}
+
+.chip-brown {
+    background: #8c5e24;
+}
+
 /* Header*/
 
 .header {
@@ -166,7 +188,7 @@ p {
 /* Person */
 
 .person {
-    height: 350px;
+    height: 600px;
     background: url(../images/cafe3.jpg) center center/cover;
 }
 
@@ -176,6 +198,28 @@ p {
     padding: 100px 0px 100px 0px;
     text-align: center;
 }
+
+
+/* Where */
+
+.where {
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.where-img {
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.where-text {
+    float: right;
+    width: 50%;
+}
+
 
 /*  Footer */
 
